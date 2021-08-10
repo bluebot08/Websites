@@ -1,0 +1,1 @@
+This is just a personal project to practice. I am trying to create a website for Weyland-Yutani, the mega corp from the Alien and Prometheous series.  
