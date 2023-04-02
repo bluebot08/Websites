@@ -1,9 +1,55 @@
 body {
+  margin: 0px;
   min-height: 100vh;
+}
+
+.navbar {
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+}
+
+body {
   display: flex;
   flex-direction: column;
 }
 
 .header {
   background-color: lightblue;
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding: 0 16px;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+}
+
+.navbar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+.content {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
