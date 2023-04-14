@@ -66,10 +66,3 @@
     flex: 1;
   }
 }
-
-/* not working */
-/* .finger-print-img {
-  background-image: url("/images/fingerprint.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
