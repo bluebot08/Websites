@@ -1,100 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products & Services</title>
+    <title>Careers - Example Company</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Bootstrap CSS -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
-    <!-- Custom CSS -->
-    <style>
-      /* Add your custom CSS styles here */
-    </style>
+
+    <!-- Custom styles -->
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Company Name</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Products & Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- Navigation bar -->
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+    >
+      <a
+        href="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+      >
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+        <span class="fs-4">Example Company</span>
+      </a>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="products-and-services.html" class="nav-link"
+            >Products & Services</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="careers.html" class="nav-link active" aria-current="page"
+            >Careers</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="news-and-events.html" class="nav-link">News & Events</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Hero section -->
+    <section class="jumbotron text-center">
       <div class="container">
-        <h1 class="display-4">Our Products & Services</h1>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <h1 class="jumbotron-heading">Join Our Team</h1>
+        <p class="lead text-muted mb-0">
+          We are always looking for talented individuals to help us grow and
+          succeed.
         </p>
       </div>
-    </div>
+    </section>
 
-    <!-- Products & Services Section -->
-    <section id="products-services" class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="Product Image"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Product 1</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
+    <!-- Job listings -->
+    <section class="container py-5">
+      <h2 class="mb-5">Current Job Openings</h2>
+
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Software Engineer</h3>
+              <h4 class="card-subtitle mb-2 text-muted">
+                Full-time, San Francisco
+              </h4>
+              <p class="card-text">
+                We are looking for an experienced software engineer to join our
+                growing team in San Francisco. The ideal candidate will have
+                experience with Java and Spring Framework.
+              </p>
+              <a href="#" class="card-link">Apply Now</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="Product Image"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Product 2</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
+        </div>
+        <div class="col-md-6 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Marketing Manager</h3>
+              <h4 class="card-subtitle mb-2 text-muted">Full-time, New York</h4>
+              <p class="card-text">
+                We are seeking a marketing manager to help us increase brand
+                awareness and generate leads. The ideal candidate will have
+                experience with SEO and content marketing
+              </p>
             </div>
           </div>
         </div>
